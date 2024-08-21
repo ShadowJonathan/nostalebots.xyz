@@ -10,3 +10,16 @@ article {
 .center {
     text-align: center;
 }
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 175%;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 110%;
+}
