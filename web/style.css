@@ -6,3 +6,8 @@ article {
     max-width: 500px;
     margin: 0 auto;
 }
+
+.center {
+    width: 100%;
+    text-align: center;
+}
