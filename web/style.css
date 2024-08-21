@@ -23,3 +23,11 @@ h3 {
     font-style: italic;
     font-size: 110%;
 }
+
+li {
+    margin-top: 0.25rem;
+}
+
+li>a {
+    text-decoration: none;
+}
