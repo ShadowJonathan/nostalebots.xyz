@@ -220,6 +220,9 @@ This is a list of (large) projects that I know about, that currently use stale b
 - [React Native Firebase](https://github.com/invertase/react-native-firebase)
   {% ref "https://github.com/invertase/react-native-firebase/blob/main/.github/workflows/stale.yml" %}
 
+- [Paperless-NGX](https://github.com/paperless-ngx/paperless-ngx)
+  {% ref "https://github.com/paperless-ngx/paperless-ngx/blob/dev/.github/workflows/repo-maintenance.yml" %}
+
 ----
 
 ## Counterexamples
