@@ -241,6 +241,10 @@ This is a list of (large) projects that I know about, that currently use stale b
 - [`zigbee2mqtt`](https://github.com/Koenkk/zigbee2mqtt)
   {% ref "https://github.com/Koenkk/zigbee2mqtt/blob/master/.github/workflows/stale.yml" %}
 
+- [Chakra UI](https://github.com/chakra-ui/chakra-ui)
+  {% ref "https://github.com/chakra-ui/chakra-ui/blob/main/.github/workflows/issue-stale.yml" %}
+  <small>(exempts triaged issues)</small>
+
 ----
 
 ## Counterexamples
