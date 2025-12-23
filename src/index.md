@@ -224,6 +224,9 @@ This is a list of (large) projects that I know about, that currently use stale b
   {% ref "https://github.com/paperless-ngx/paperless-ngx/blob/dev/.github/workflows/repo-maintenance.yml" %}
   <small>(even closes stale discussions)</small>
 
+- [Microsoft `vcpkg`](https://github.com/microsoft/vcpkg)
+  {% ref "https://github.com/microsoft/vcpkg/blob/master/.github/workflows/stale.yml" %}
+
 ----
 
 ## Counterexamples
