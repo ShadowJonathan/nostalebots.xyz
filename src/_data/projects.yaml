@@ -212,3 +212,7 @@
 - name: The Graphite Project
   url: https://github.com/graphite-project
   ref: https://github.com/search?q=org:graphite-project+(daysUntilClose+OR+%22days-before-close%22)&type=code
+
+- name: BlueZ
+  url: https://github.com/bluez/bluez
+  ref: https://github.com/bluez/bluez/blob/master/.github/workflows/stale.yml
