@@ -235,6 +235,9 @@ This is a list of (large) projects that I know about, that currently use stale b
   {% ref "https://github.com/yairm210/Unciv/blob/master/.github/workflows/stale-issues-and-prs.yaml" %}
   <small>(and the author is [proud of it](https://github.com/ShadowJonathan/nostalebots.xyz/issues/28#issuecomment-2857891139))</small>
 
+- [Ledger Live](https://github.com/LedgerHQ/ledger-live)
+  {% ref "https://github.com/LedgerHQ/ledger-live/blob/develop/.github/workflows/stale.yml" %}
+
 ----
 
 ## Counterexamples
