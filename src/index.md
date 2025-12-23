@@ -231,6 +231,10 @@ This is a list of (large) projects that I know about, that currently use stale b
   {% ref "https://github.com/jekyll/jekyllbot/blob/main/cmd/mark-and-sweep-stale-issues/mark_and_sweep_stale_issues.go" %}
   <small>(as seen in [this issue](https://github.com/jekyll/jekyll-feed/issues/392))</small>
 
+- [UnCiv](https://github.com/yairm210/Unciv)
+  {% ref "https://github.com/yairm210/Unciv/blob/master/.github/workflows/stale-issues-and-prs.yaml" %}
+  <small>(and the author is [proud of it](https://github.com/ShadowJonathan/nostalebots.xyz/issues/28#issuecomment-2857891139))</small>
+
 ----
 
 ## Counterexamples
