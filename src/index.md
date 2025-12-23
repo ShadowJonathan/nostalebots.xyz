@@ -238,6 +238,9 @@ This is a list of (large) projects that I know about, that currently use stale b
 - [Ledger Live](https://github.com/LedgerHQ/ledger-live)
   {% ref "https://github.com/LedgerHQ/ledger-live/blob/develop/.github/workflows/stale.yml" %}
 
+- [`zigbee2mqtt`](https://github.com/Koenkk/zigbee2mqtt)
+  {% ref "https://github.com/Koenkk/zigbee2mqtt/blob/master/.github/workflows/stale.yml" %}
+
 ----
 
 ## Counterexamples
