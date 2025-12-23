@@ -10,6 +10,13 @@ export default function (eleventyConfig) {
     mdLib.use(anchor, { level: [1, 2] })
   );
 
+  eleventyConfig.addShortcode("ref", function (url) {
+    if (!url) {
+      throw new Error("URL is required for ref shortcode");
+    }
+    return `<sup><a href="${url}" target="_blank">↩</a></sup>`;
+  });
+
   return {
     dir: {
       input: "src",
