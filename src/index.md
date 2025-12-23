@@ -222,6 +222,7 @@ This is a list of (large) projects that I know about, that currently use stale b
 
 - [Paperless-NGX](https://github.com/paperless-ngx/paperless-ngx)
   {% ref "https://github.com/paperless-ngx/paperless-ngx/blob/dev/.github/workflows/repo-maintenance.yml" %}
+  <small>(even closes stale discussions)</small>
 
 ----
 
