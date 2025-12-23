@@ -248,6 +248,9 @@ This is a list of (large) projects that I know about, that currently use stale b
 - [JS Expo](https://github.com/expo/expo)
   {% ref "https://github.com/expo/expo/blob/main/.github/workflows/issue-stale.yml" %}
 
+- [`shadcn/ui`](https://github.com/shadcn-ui/ui)
+  {% ref "https://github.com/shadcn-ui/ui/blob/main/.github/workflows/issue-stale.yml" %}
+
 ----
 
 ## Counterexamples
