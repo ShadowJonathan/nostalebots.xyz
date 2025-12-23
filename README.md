@@ -1,6 +1,6 @@
 # nostalebots.xyz
 
-![NoStaleBots Badge](https://img.shields.io/badge/No_Stale_Bot_Here-blue?logo=probot&logoColor=silver&link=https%3A%2F%2Fnostalebots.xyz%2F)
+![NoStaleBots Badge](https://img.shields.io/badge/No-Stale_Bot_Here-blue?logo=probot&logoColor=silver)
 
 
 A website explaining some ways auto-closing stale bots can be harmful, and how they don't fit in the modern open source project workflow.
@@ -14,5 +14,5 @@ This site uses [11ty](https://www.11ty.dev/).
 (You can add the badge to your repo with this bit of markdown:)
 
 ```md
-![NoStaleBots Badge](https://img.shields.io/badge/No_Stale_Bot_Here-blue?logo=probot&logoColor=silver&link=https%3A%2F%2Fnostalebots.xyz%2F)
+![NoStaleBots Badge](https://img.shields.io/badge/No-Stale_Bot_Here-blue?logo=probot&logoColor=silver)
 ```
