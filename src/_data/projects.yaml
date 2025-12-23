@@ -1,0 +1,214 @@
+# Properties:
+#  - name: (Required) The name of the project
+#  - url: The URL of the GitHub repository or organization
+#  - ref: The URL of the stale issue/PR management workflow file
+#  - comment: Additional commentary
+#  - indent: Number of levels to indent the entry in the list (default: 0)
+
+- name: Home Assistant
+  url: https://github.com/home-assistant/core
+  ref: https://github.com/home-assistant/core/blob/dev/.github/workflows/stale.yml
+  comment: by the Open Home Foundation
+
+- name: Home Assistant Community Addons
+  url: https://github.com/hassio-addons
+  ref: https://github.com/hassio-addons/workflows/blob/main/.github/workflows/stale.yaml
+  comment: maintained by `frenck`
+
+- name: K3s
+  url: https://github.com/k3s-io/k3s
+  ref: https://github.com/k3s-io/k3s/blob/main/.github/workflows/stale.yml
+  comment: exempts milestoned and triaged issues
+
+- name: Rancher
+  url: https://github.com/rancher/rancher
+  ref: https://github.com/rancher/rancher/blob/main/.github/workflows/stale.yml
+  comment: exempts milestoned and triaged issues
+
+- name: Longhorn
+  url: https://github.com/longhorn/longhorn
+  ref: https://github.com/longhorn/longhorn/blob/master/.github/workflows/stale.yaml
+  comment: exempts some triaged issues
+
+- name: Hugo
+  url: https://github.com/gohugoio/hugo
+  ref: https://github.com/gohugoio/hugo/blob/master/.github/workflows/stale.yml
+
+- name: PowerDNS-Admin
+  url: https://github.com/PowerDNS-Admin/PowerDNS-Admin
+  ref: https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/.github/workflows/stale.yml
+  comment: won't remove stale label on activity; 30 day counter always applies
+
+- name: Next.js
+  url: https://github.com/vercel/next.js
+  ref: https://github.com/vercel/next.js/blob/canary/.github/workflows/issue_stale.yml
+
+- name: OpenTripPlanner
+  url: https://github.com/opentripplanner/OpenTripPlanner
+  ref: https://github.com/opentripplanner/OpenTripPlanner/blob/dev-2.x/.github/workflows/close_stale_pr_and_issues.yml
+
+- name: Ruby on Rails
+  url: https://github.com/rails/rails
+  ref: https://github.com/rails/rails/blob/main/.github/workflows/stale.yml
+  comment: exempts milestoned and important issues
+
+- name: Electron
+  url: https://github.com/electron/electron
+  ref: https://github.com/electron/electron/blob/main/.github/workflows/stale.yml
+  comment: exempts triaged issues
+
+- name: "Cataclysm: Dark Days Ahead"
+  url: https://github.com/CleverRaven/Cataclysm-DDA
+  ref: https://github.com/CleverRaven/Cataclysm-DDA/blob/master/.github/workflows/stale.yml
+  comment: exempts triaged, assigned, and milestoned issues
+
+- name: Homebrew Brew
+  url: https://github.com/Homebrew/brew
+  ref: https://github.com/Homebrew/brew/blob/main/.github/workflows/stale-issues.yml
+
+- name: OwnCast
+  url: https://github.com/owncast/owncast
+  ref: https://github.com/owncast/owncast/blob/develop/.github/workflows/stale.yml
+
+- name: Backstage
+  url: https://github.com/backstage/backstage
+  ref: https://github.com/backstage/backstage/blob/master/.github/workflows/automate_stale.yml
+
+- name: Jellyfin
+  url: https://github.com/jellyfin/jellyfin
+  ref: https://github.com/jellyfin/jellyfin/blob/master/.github/workflows/issue-stale.yml
+  comment: exempts triaged issues
+
+- name: Overseerr
+  url: https://github.com/sct/overseerr
+  ref: https://github.com/sct/overseerr/blob/develop/.github/stale.yml
+
+- name: Authentik
+  url: https://github.com/goauthentik/authentik
+  ref: https://github.com/goauthentik/authentik/blob/main/.github/workflows/repo-stale.yml
+
+- name: Docker Compose
+  url: https://github.com/docker/compose
+  ref: https://github.com/docker/compose/blob/main/.github/workflows/stale.yml
+
+- name: Istio
+  url: https://github.com/istio
+  ref: https://github.com/istio/bots/blob/master/policybot/config/lifecycles/main.yaml
+
+- name: Canonical
+  url: https://github.com/canonical
+  ref: https://github.com/search?q=org:canonical+(daysUntilClose+OR+%22days-before-close%22)&type=code
+  extra: ", including;"
+
+- name: MicroK8s
+  url: https://github.com/canonical/microk8s
+  ref: https://github.com/canonical/microk8s/blob/master/.github/workflows/stale-cron.yaml
+  indent: 1
+
+- name: Cloud Init
+  url: https://github.com/canonical/cloud-init
+  ref: https://github.com/canonical/cloud-init/blob/main/.github/workflows/stale.yml
+  indent: 1
+
+- name: Ubuntu.com
+  url: https://github.com/canonical/ubuntu.com
+  ref: https://github.com/canonical/ubuntu.com/blob/main/.github/stale.yml
+  indent: 1
+
+- name: HAProxy Kubernetes Ingress
+  url: https://github.com/haproxytech/kubernetes-ingress
+  ref: https://github.com/haproxytech/kubernetes-ingress/blob/master/.github/stale.yml
+
+- name: Python's `httpcore`
+  url: https://github.com/encode/httpcore
+  ref: https://github.com/encode/httpcore/blob/master/.github/stale.yml
+
+- name: Django REST Framework
+  url: https://github.com/encode/django-rest-framework
+  ref: https://github.com/encode/django-rest-framework/blob/main/.github/stale.yml
+
+- name: protobuf
+  url: https://github.com/protocolbuffers/protobuf
+  ref: https://github.com/protocolbuffers/protobuf/blob/main/.github/workflows/janitor.yml
+
+- name: Mailcow (dockerized)
+  url: https://github.com/mailcow/mailcow-dockerized
+  ref: https://github.com/mailcow/mailcow-dockerized/blob/master/.github/workflows/close_old_issues_and_prs.yml
+
+- name: Signal
+
+- name: Signal iOS
+  url: https://github.com/signalapp/Signal-iOS
+  ref: https://github.com/signalapp/Signal-iOS/blob/main/.github/workflows/stale.yml
+  indent: 1
+
+- name: Signal Android
+  url: https://github.com/signalapp/Signal-Android
+  ref: https://github.com/signalapp/Signal-Android/blob/main/.github/stale.yml
+  indent: 1
+
+- name: fwupd
+  url: https://github.com/fwupd/fwupd
+  ref: https://github.com/fwupd/fwupd/blob/main/.github/stale.yml
+  comment: exempts triaged issues
+
+- name: Headscale
+  url: https://github.com/juanfont/headscale
+  ref: https://github.com/juanfont/headscale/blob/main/.github/workflows/stale.yml
+
+- name: React Native Google Mobile Ads
+  url: https://github.com/invertase/react-native-google-mobile-ads
+  ref: https://github.com/invertase/react-native-google-mobile-ads/blob/main/.github/workflows/stale.yml
+
+- name: React Native Firebase
+  url: https://github.com/invertase/react-native-firebase
+  ref: https://github.com/invertase/react-native-firebase/blob/main/.github/workflows/stale.yml
+
+- name: Paperless-NGX
+  url: https://github.com/paperless-ngx/paperless-ngx
+  ref: https://github.com/paperless-ngx/paperless-ngx/blob/dev/.github/workflows/repo-maintenance.yml
+  comment: even closes stale discussions
+
+- name: Microsoft `vcpkg`
+  url: https://github.com/microsoft/vcpkg
+  ref: https://github.com/microsoft/vcpkg/blob/master/.github/workflows/stale.yml
+
+- name: Jekyll
+  url: https://github.com/jekyll
+  ref: https://github.com/jekyll/jekyllbot/blob/main/cmd/mark-and-sweep-stale-issues/mark_and_sweep_stale_issues.go
+  comment: as seen in [this issue](https://github.com/jekyll/jekyll-feed/issues/392)
+
+- name: UnCiv
+  url: https://github.com/yairm210/Unciv
+  ref: https://github.com/yairm210/Unciv/blob/master/.github/workflows/stale-issues-and-prs.yaml
+  comment: and the author is [proud of it](https://github.com/ShadowJonathan/nostalebots.xyz/issues/28#issuecomment-2857891139)
+
+- name: Ledger Live
+  url: https://github.com/LedgerHQ/ledger-live
+  ref: https://github.com/LedgerHQ/ledger-live/blob/develop/.github/workflows/stale.yml
+
+- name: "`zigbee2mqtt`"
+  url: https://github.com/Koenkk/zigbee2mqtt
+  ref: https://github.com/Koenkk/zigbee2mqtt/blob/master/.github/workflows/stale.yml
+
+- name: Chakra UI
+  url: https://github.com/chakra-ui/chakra-ui
+  ref: https://github.com/chakra-ui/chakra-ui/blob/main/.github/workflows/issue-stale.yml
+  comment: exempts triaged issues
+
+- name: JS Expo
+  url: https://github.com/expo/expo
+  ref: https://github.com/expo/expo/blob/main/.github/workflows/issue-stale.yml
+
+- name: "`shadcn/ui`"
+  url: https://github.com/shadcn-ui/ui
+  ref: https://github.com/shadcn-ui/ui/blob/main/.github/workflows/issue-stale.yml
+
+- name: Void Linux Packages
+  url: https://github.com/void-linux/void-packages
+  ref: https://github.com/void-linux/void-packages/blob/master/.github/workflows/stale.yaml
+  comment: exempts assigned issues
+
+- name: The Graphite Project
+  url: https://github.com/graphite-project
+  ref: https://github.com/search?q=org:graphite-project+(daysUntilClose+OR+%22days-before-close%22)&type=code

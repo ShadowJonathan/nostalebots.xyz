@@ -1,7 +1,12 @@
 import sub_plugin from "markdown-it-sub";
 import anchor from "markdown-it-anchor";
+import YAML from "yaml";
 
 export default function (eleventyConfig) {
+  eleventyConfig.addDataExtension("yml,yaml", (contents) =>
+    YAML.parse(contents)
+  );
+
   eleventyConfig.addPassthroughCopy("src/*.png");
   eleventyConfig.addPassthroughCopy("src/style.css");
 

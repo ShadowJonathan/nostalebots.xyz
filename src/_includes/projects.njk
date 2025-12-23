@@ -1,0 +1,28 @@
+
+
+{% for project in projects %}
+
+{% assign i = "" %}
+{% assign indent = project.indent | default: 0 %}
+
+{% for n in (1..indent) %}
+{% assign i = i | append: "  " %}
+{% endfor %}
+
+{{ i }}- {% if project.url -%}
+            [{{ project.name }}]({{ project.url }})
+            {%- else -%}
+{{ i }}     {{ project.name }}
+            {%- endif %}
+{{ i }}     {% if project.ref -%}
+{{ i }}     {% ref project.ref %}
+            {%- endif %}
+            {%- if project.extra -%}
+            {{ project.extra }}
+            {%- endif %}
+{{ i }}     {% if project.comment -%}
+{{ i }}     <small>({{ project.comment }})</small>
+            {%- endif %}
+{% endfor %}
+
+
