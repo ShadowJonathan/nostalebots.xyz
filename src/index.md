@@ -99,46 +99,126 @@ This is a list of (large) projects that I know about, that currently use stale b
 
 <small>(Please [file an issue](https://github.com/ShadowJonathan/nostalebots.xyz/issues/new) if you know of more, or if any of these have stopped using stale bots)</small>
 
-- [Home Assistant](https://github.com/home-assistant) (and their [Community Addons](https://github.com/hassio-addons))
-- [Matter](https://github.com/project-chip/connectedhomeip)
+- [Home Assistant](https://github.com/home-assistant/core/) (by the Open Home Foundation)
+  {% ref "https://github.com/home-assistant/core/blob/dev/.github/workflows/stale.yml" %}
+
+- [Home Assistant Community Addons](https://github.com/hassio-addons) (maintained by `frenck`)
+  {% ref "https://github.com/hassio-addons/workflows/blob/main/.github/workflows/stale.yaml" %}
+
 - [K3s](https://github.com/k3s-io/k3s)
+  {% ref "https://github.com/k3s-io/k3s/blob/main/.github/workflows/stale.yml" %}
+  <small>(exempts milestoned and triaged issues)</small>
+
 - [Rancher](https://github.com/rancher/rancher)
+  {% ref "https://github.com/rancher/rancher/blob/main/.github/workflows/stale.yml" %}
+  <small>(exempts milestoned and triaged issues)</small>
+
 - [Longhorn](https://github.com/longhorn/longhorn)
+  {% ref "https://github.com/longhorn/longhorn/blob/master/.github/workflows/stale.yaml" %}
+  <small>(exempts some triaged issues)</small>
+
 - [Hugo](https://github.com/gohugoio/hugo)
+  {% ref "https://github.com/gohugoio/hugo/blob/master/.github/workflows/stale.yml" %}
+
 - [PowerDNS-Admin](https://github.com/PowerDNS-Admin/PowerDNS-Admin)
+  {% ref "https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/.github/workflows/stale.yml" %}
+  <small>(won't remove stale label on activity; 30 day counter always applies)</small>
+
 - [Void Linux](https://github.com/void-linux)
-- [Vercel / Next.js](https://github.com/vercel)
-- [Flutter](https://github.com/flutter/flutter)
+  - [Void Packages](https://github.com/void-linux/void-packages)
+    {% ref "https://github.com/void-linux/void-packages/blob/master/.github/workflows/stale.yaml" %}
+    <small>(exempts assigned issues)</small>
+
+- [Next.js](https://github.com/vercel/next.js)
+  {% ref "https://github.com/vercel/next.js/blob/canary/.github/workflows/issue_stale.yml" %}
+
 - [OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner)
+  {% ref "https://github.com/opentripplanner/OpenTripPlanner/blob/dev-2.x/.github/workflows/close_stale_pr_and_issues.yml" %}
+
 - [Ruby on Rails](https://github.com/rails/rails)
-- [Gitea](https://github.com/go-gitea/gitea)
+  {% ref "https://github.com/rails/rails/blob/main/.github/workflows/stale.yml" %}
+  <small>(exempts milestoned and important issues)</small>
+
 - [Electron](https://github.com/electron/electron)
+  {% ref "https://github.com/electron/electron/blob/main/.github/workflows/stale.yml" %}
+  <small>(exempts triaged issues)</small>
+
 - [Cataclysm: Dark Days Ahead](https://github.com/CleverRaven/Cataclysm-DDA)
+  {% ref "https://github.com/CleverRaven/Cataclysm-DDA/blob/master/.github/workflows/stale.yml" %}
+  <small>(exempts triaged, assigned, and milestoned issues)</small>
+
 - [Homebrew Brew](https://github.com/Homebrew/brew)
+  {% ref "https://github.com/Homebrew/brew/blob/main/.github/workflows/stale-issues.yml" %}
+
 - [OwnCast](https://github.com/owncast/owncast)
-- [Puppet Labs](https://github.com/puppetlabs)
+  {% ref "https://github.com/owncast/owncast/blob/develop/.github/workflows/stale.yml" %}
+
 - [Backstage](https://github.com/backstage/backstage)
+  {% ref "https://github.com/backstage/backstage/blob/master/.github/workflows/automate_stale.yml" %}
+
 - [Jellyfin](https://github.com/jellyfin/jellyfin)
+  {% ref "https://github.com/jellyfin/jellyfin/blob/master/.github/workflows/issue-stale.yml" %}
+  <small>(exempts triaged issues)</small>
+
 - [Overseerr](https://github.com/sct/overseerr)
+  {% ref "https://github.com/sct/overseerr/blob/develop/.github/stale.yml" %}
+
 - [Authentik](https://github.com/goauthentik/authentik)
+  {% ref "https://github.com/goauthentik/authentik/blob/main/.github/workflows/repo-stale.yml" %}
+
 - [Docker Compose](https://github.com/docker/compose)
+  {% ref "https://github.com/docker/compose/blob/main/.github/workflows/stale.yml" %}
+
 - [Istio](https://github.com/istio)
-- [Some of Canonical's repos](https://github.com/search?q=org:canonical+(daysUntilClose+OR+%22days-before-close%22)&type=code), including;
-    - [MicroK8s](https://github.com/canonical/microk8s)
-    - [Cloud Init](https://github.com/canonical/cloud-init)
-    - [Ubuntu.com](https://github.com/canonical/ubuntu.com)
+  {% ref "https://github.com/istio/bots/blob/master/policybot/config/lifecycles/main.yaml" %}
+
+- Some of Canonical's repos {% ref "https://github.com/search?q=org:canonical+(daysUntilClose+OR+%22days-before-close%22)&type=code" %}, including;
+
+  - [MicroK8s](https://github.com/canonical/microk8s)
+    {% ref "https://github.com/canonical/microk8s/blob/master/.github/workflows/stale-cron.yaml" %}
+
+  - [Cloud Init](https://github.com/canonical/cloud-init)
+    {% ref "https://github.com/canonical/cloud-init/blob/main/.github/workflows/stale.yml" %}
+
+  - [Ubuntu.com](https://github.com/canonical/ubuntu.com)
+    {% ref "https://github.com/canonical/ubuntu.com/blob/main/.github/stale.yml" %}
+
 - [HAProxy Kubernetes Ingress](https://github.com/haproxytech/kubernetes-ingress)
-- [Python's 'httpcore'](https://github.com/encode/httpcore)
+  {% ref "https://github.com/haproxytech/kubernetes-ingress/blob/master/.github/stale.yml" %}
+
+- [Python's `httpcore`](https://github.com/encode/httpcore)
+  {% ref "https://github.com/encode/httpcore/blob/master/.github/stale.yml" %}
+
 - [Django REST Framework](https://github.com/encode/django-rest-framework)
-- Most repos for [The Graphite Project](https://github.com/graphite-project)
+  {% ref "https://github.com/encode/django-rest-framework/blob/main/.github/stale.yml" %}
+
+- Some of [The Graphite Project](https://github.com/graphite-project)'s repos {% ref "https://github.com/search?q=org:graphite-project+(daysUntilClose+OR+%22days-before-close%22)&type=code" %}
+
 - [protobuf](https://github.com/protocolbuffers/protobuf)
+  {% ref "https://github.com/protocolbuffers/protobuf/blob/main/.github/workflows/janitor.yml" %}
+
 - [Mailcow (dockerized)](https://github.com/mailcow/mailcow-dockerized)
-- [Signal](https://github.com/signalapp)
+  {% ref "https://github.com/mailcow/mailcow-dockerized/blob/master/.github/workflows/close_old_issues_and_prs.yml" %}
+
+- [Signal](https://githum/signalapp)
+  - [Signal iOS](https://github.com/signalapp/Signal-iOS)
+    {% ref "https://github.com/signalapp/Signal-iOS/blob/main/.github/workflows/stale.yml" %}
+
+  - [Signal Android](https://github.com/signalapp/Signal-Android)
+    {% ref "https://github.com/signalapp/Signal-Android/blob/main/.github/stale.yml" %}
+
 - [fwupd](https://github.com/fwupd/fwupd)
+  {% ref "https://github.com/fwupd/fwupd/blob/main/.github/stale.yml" %}
+  <small>(exempts triaged issues)</small>
+
 - [Headscale](https://github.com/juanfont/headscale)
+  {% ref "https://github.com/juanfont/headscale/blob/main/.github/workflows/stale.yml" %}
+
 - [React Native Google Mobile Ads](https://github.com/invertase/react-native-google-mobile-ads)
+  {% ref "https://github.com/invertase/react-native-google-mobile-ads/blob/main/.github/workflows/stale.yml" %}
+
 - [React Native Firebase](https://github.com/invertase/react-native-firebase)
-- [OCaml](https://github.com/ocaml/ocaml) (After 366 days)
+  {% ref "https://github.com/invertase/react-native-firebase/blob/main/.github/workflows/stale.yml" %}
 
 ----
 

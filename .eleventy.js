@@ -14,7 +14,7 @@ export default function (eleventyConfig) {
     if (!url) {
       throw new Error("URL is required for ref shortcode");
     }
-    return `<sup><a href="${url}" target="_blank">↩</a></sup>`;
+    return `<a href="${url}" class="ref" target="_blank">↩</a>`;
   });
 
   return {
