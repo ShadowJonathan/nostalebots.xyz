@@ -245,6 +245,9 @@ This is a list of (large) projects that I know about, that currently use stale b
   {% ref "https://github.com/chakra-ui/chakra-ui/blob/main/.github/workflows/issue-stale.yml" %}
   <small>(exempts triaged issues)</small>
 
+- [JS Expo](https://github.com/expo/expo)
+  {% ref "https://github.com/expo/expo/blob/main/.github/workflows/issue-stale.yml" %}
+
 ----
 
 ## Counterexamples
