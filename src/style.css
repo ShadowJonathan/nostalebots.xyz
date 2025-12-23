@@ -7,27 +7,28 @@ article {
     margin: 0 auto;
 }
 
-.center {
+article h1 {
+    font-size: 300%;
     text-align: center;
 }
 
-h1 {
-    font-size: 300%;
-}
-
-h2 {
+article h2 {
     font-size: 175%;
 }
 
-h3 {
+article h3 {
     font-style: italic;
     font-size: 110%;
 }
 
-li {
+article li {
     margin-top: 0.25rem;
 }
 
-li>a {
+article li>a {
     text-decoration: none;
+}
+
+article img {
+    width: 100%;
 }
