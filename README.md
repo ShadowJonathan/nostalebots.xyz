@@ -1,6 +1,8 @@
 # nostalebots.xyz
 
-![NoStaleBots Badge](https://img.shields.io/badge/No-Stale_Bot_Here-blue?logo=probot&logoColor=silver)
+<a href="https://nostalebots.xyz/" target="_blank">
+  <img alt="No Stale Bot Here" src="https://img.shields.io/badge/No-Stale_Bot_Here-blue?logo=probot&logoColor=silver">
+</a>
 
 
 A website explaining some ways auto-closing stale bots can be harmful, and how they don't fit in the modern open source project workflow.
@@ -11,8 +13,10 @@ Text is added/edited under [src/index.md](src/index.md), projects are added unde
 
 This site uses [11ty](https://www.11ty.dev/).
 
-(You can add the badge to your repo with this bit of markdown:)
+(You can add the badge to your repo with this bit of markdown-usable html:)
 
 ```md
-![NoStaleBots Badge](https://img.shields.io/badge/No-Stale_Bot_Here-blue?logo=probot&logoColor=silver)
+<a href="https://nostalebots.xyz/" target="_blank">
+  <img alt="No Stale Bot Here" src="https://img.shields.io/badge/No-Stale_Bot_Here-blue?logo=probot&logoColor=silver">
+</a>
 ```
