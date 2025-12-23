@@ -95,7 +95,7 @@ Now, I will acknowledge that triaging and managing issues is an energy-consuming
 
 ## Projects that currently use stale bots
 
-This is a list of (large) projects that I know about, that currently use stale bots.
+This is a list of (large) projects that I know about, that currently use stale bots (that auto-close issues after X amount of time).
 
 <small>(Please [file an issue](https://github.com/ShadowJonathan/nostalebots.xyz/issues/new) if you know of more, or if any of these have stopped using stale bots)</small>
 
