@@ -227,6 +227,10 @@ This is a list of (large) projects that I know about, that currently use stale b
 - [Microsoft `vcpkg`](https://github.com/microsoft/vcpkg)
   {% ref "https://github.com/microsoft/vcpkg/blob/master/.github/workflows/stale.yml" %}
 
+- [Jekyll](https://github.com/jekyll)
+  {% ref "https://github.com/jekyll/jekyllbot/blob/main/cmd/mark-and-sweep-stale-issues/mark_and_sweep_stale_issues.go" %}
+  <small>(as seen in [this issue](https://github.com/jekyll/jekyll-feed/issues/392))</small>
+
 ----
 
 ## Counterexamples
