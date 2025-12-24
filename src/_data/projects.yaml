@@ -79,6 +79,10 @@
   ref: https://github.com/jellyfin/jellyfin/blob/master/.github/workflows/issue-stale.yml
   comment: exempts triaged issues
 
+- name: Jellyfin Android
+  url: https://github.com/jellyfin/jellyfin-android
+  ref: https://github.com/jellyfin/jellyfin-android/blob/master/.github/workflows/repo-stale.yaml
+
 - name: Overseerr
   url: https://github.com/sct/overseerr
   ref: https://github.com/sct/overseerr/blob/develop/.github/stale.yml
