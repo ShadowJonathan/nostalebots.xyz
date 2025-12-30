@@ -220,3 +220,7 @@
 - name: BlueZ
   url: https://github.com/bluez/bluez
   ref: https://github.com/bluez/bluez/blob/master/.github/workflows/stale.yml
+
+- name: Netbox
+  url: https://github.com/netbox-community/netbox
+  ref: https://github.com/netbox-community/netbox/blob/main/.github/workflows/close-stale-issues.yml
