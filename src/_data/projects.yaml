@@ -224,3 +224,8 @@
 - name: Netbox
   url: https://github.com/netbox-community/netbox
   ref: https://github.com/netbox-community/netbox/blob/main/.github/workflows/close-stale-issues.yml
+
+- name: Gemini CLI
+  url: https://github.com/google-gemini/gemini-cli/
+  ref: https://github.com/google-gemini/gemini-cli/blob/main/.github/workflows/gemini-scheduled-stale-issue-closer.yml
+  comment: prominently [closed the accessibility issue](https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility)
